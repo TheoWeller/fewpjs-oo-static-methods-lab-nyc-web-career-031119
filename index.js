@@ -17,7 +17,7 @@ class Formatter {
       if(word === "the" || word === "a" || word === "an" || word === "but" || word === "of" || word === "and" || word === "for" || word === "at" || word === "by" || word === "from"){
 
       } else {
-        word.charAt(0).toUpperCase();
+        word.charAt(0).toUpperCase() + word.splice(1);
       }
 
 
